@@ -30,3 +30,7 @@ body {
 button {
   border-radius: 0 !important;
 }
+
+.dropdown-item:hover {
+  background-color: red !important;
+}
