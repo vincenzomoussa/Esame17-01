@@ -48,7 +48,21 @@ nav li a,
   transform: scale(1.3);
   z-index: 2;
 }
+footer {
+  margin-inline: 20%;
+  margin-top: 8%;
+  color: rgb(129, 129, 129);
+  font-weight: 600;
+  font-size: small;
+}
 
+.service {
+  border-color: rgb(129, 129, 129) !important;
+}
+
+.netflixInc {
+  font-size: 9pt;
+}
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1200px) {
