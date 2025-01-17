@@ -24,6 +24,10 @@ nav li a,
   font-size: 10pt !important;
 }
 
+.dropdown-item:hover {
+  background-color: red !important;
+}
+
 .menoIntenso {
   color: rgb(172, 172, 172) !important;
 }
@@ -55,7 +59,9 @@ footer {
   font-weight: 600;
   font-size: small;
 }
-
+option:hover {
+  background-color: black !important;
+}
 .service {
   border-color: rgb(129, 129, 129) !important;
 }
