@@ -26,8 +26,16 @@ nav li a,
 .menoIntenso {
   color: rgb(172, 172, 172) !important;
 }
+.dropdown {
+  background-color: black;
+  color: white;
+}
 /* MEDIA QUERIES */
-
+@media screen and (max-widt: 991px) {
+  #nascosto {
+    justify-content: left !important;
+  }
+}
 @media screen and (max-width: 1200px) {
   body {
     margin-inline: 40px;

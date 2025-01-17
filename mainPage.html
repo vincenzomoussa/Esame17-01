@@ -28,7 +28,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-dark navbar-toggler-icon text-white"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
@@ -44,10 +44,11 @@
                 <a href="#" class="nav-link text-white menoIntenso" aria-current="page">My List</a>
               </li>
             </ul>
-            <div class="d-flex justify-content-between align-items-center gap-3">
-              <ion-icon class="text-white" name="search"></ion-icon>
+            <div class="d-flex justify-content-between align-items-center gap-3 text-white" id="nascosto">
+              <ion-icon name="search-sharp"></ion-icon>
               <span class="text-white text__nav menoIntenso">KIDS</span>
               <ion-icon name="notifications"></ion-icon>
+              <div class="dropdown">
               <a
                 href="#"
                 class="nav-link dropdown-toggle text-white"
@@ -56,6 +57,11 @@
                 aria-expanded="false"
                 ><img src="./assets/Immagini/avatar.png" alt="Avatar" class="img-fluid avatar"
               /></a>
+              <ul class="dropdown-menu dropdown-menu-end bg-dark">
+                <li class="dropdown-item text-white" href="#">Edit Profile</li>
+                <li class="dropdown-item text-white" href="#">Settings</li>
+                <li class="dropdown-item text-white" href="#">Logout</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -66,5 +72,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
